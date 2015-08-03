@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Patient>
+    <id value="1.2.40.0.34.99.111.1.2"/>
+    <name>
+        <use value="Dipl.Ing."/>
+        <family value="Mustermann"/>
+        <given value="Herbert"/>
+        <given value="Hannes"/>
+    </name>
+    <telecom>
+        <system value="phone"/>
+        <value value="tel:+43.2682.40400"/>
+        <use value="work"/>
+    </telecom>
+    <gender value="Male"/>
+    <birthDate value="19611224"/>
+    <address>
+        <use value="home"/>
+        <line value="Musterstraße 13a"/>
+        <city value="Eisenstadt"/>
+        <state value="Burgenland"/>
+        <postal value="7000"/>
+    </address>
+    <contact>
+        <relationship>
+            <coding>
+                <system value="http://hl7.org/fhir/patient-contact-relationship"/>
+                <code value="partner"/>
+            </coding>
+        </relationship>
+        <name>
+            <family value="Sorgenvoll"/>
+            <given value="Susi"/>
+        </name>
+        <telecom>
+            <system value="phone"/>
+            <value value="tel:+43.676.1234567"/>
+        </telecom>
+    </contact>
+    <managingOrganization>
+        <reference value="Sample Organization"/>
+    </managingOrganization>
+    <active value="true"/>
+</Patient>
