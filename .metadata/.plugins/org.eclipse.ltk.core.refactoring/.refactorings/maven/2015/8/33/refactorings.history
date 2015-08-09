@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;PatientMigrationHapi.java&apos; to &apos;maven/src/main/java/org.apache.maven.maven&apos;&#x0A;- Original project: &apos;maven&apos;&#x0A;- Destination element: &apos;maven/src/main/java/org.apache.maven.maven&apos;&#x0A;- Original element: &apos;PatientMigrationHapi.java&apos;&#x0A;- Update references to refactored element" description="Move file" destination="/src\/main\/java&lt;org.apache.maven.maven" element1="PatientMigrationHapi.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1439119440822" units="0" version="1.0"/>
+</session>
