@@ -1,4 +1,4 @@
-package secondApproach;
+package thirdApproach;
 
 /**
  * Created by Anar on 8/28/15.
